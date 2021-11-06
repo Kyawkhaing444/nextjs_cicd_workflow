@@ -1,0 +1,9 @@
+sudo: required
+  services:
+    - docker
+
+before_install:
+    - docker build -t kyawkhaing/next-prod-app -f Dockerfile.dev .
+
+script:
+    - docker run kyawkhiang/next-prod-app /bin/bash -c "yarn test"
