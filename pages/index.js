@@ -16,7 +16,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          with Docker, Tarvis CI, and AWS Elastic Beanstalk
+          with Docker, Travis CI, and AWS Elastic Beanstalk
         </p>
       </main>
     </div>

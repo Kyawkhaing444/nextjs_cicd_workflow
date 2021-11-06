@@ -7,16 +7,4 @@ describe("App", () => {
        screen.getByRole("heading", { name: "Next.js! Production-Grade CICD Workflow" })
      ).toBeInTheDocument();
    });
-   it("renders without crashing", () => {
-     render(<App />);
-     expect(
-       screen.getByRole("heading", { name: "Next.js! Production-Grade CICD Workflow" })
-     ).toBeInTheDocument();
-   });
-   it("renders without crashing", () => {
-     render(<App />);
-     expect(
-       screen.getByRole("heading", { name: "Next.js! Production-Grade CICD Workflow" })
-     ).toBeInTheDocument();
-   });
 });
