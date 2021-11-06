@@ -12,7 +12,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://nextjs.org">Next.js!</a> Nextjs Production-Grade CICD Workflow
+          <a href="https://nextjs.org">Next.js!</a> Production-Grade CICD Workflow
         </h1>
 
         <p className={styles.description}>
