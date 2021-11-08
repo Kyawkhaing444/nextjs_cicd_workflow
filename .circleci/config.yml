@@ -49,9 +49,10 @@ jobs:
           name: Installing deployment dependencies
           working_directory: /
           command: |
-            apk update
-            apk add python3-pip python3-dev build-essential
-            pip3 install awsebcli
+            apk add --no-cache python3 py3-pip
+            pip3 install --upgrade pip
+            pip3 install --no-cache-dir awsebcli
+            rm -rf /var/cache/apk/*
 
       - run:
           name: Deploying
