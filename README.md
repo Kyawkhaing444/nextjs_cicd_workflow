@@ -8,3 +8,6 @@ In this project, I have set up a front-end production-grade workflow for Nextjs 
 - [x] Set up Circle CI between local and github remote repo
 - [x] Set up Elastic Beanstalk for production server
 - [x] Set up continuous deployment with circleci between github and production server.
+
+**This project is part of my DevOps Challenge activities in which I practice my DevOps Skills and other backend technologies.**
+Github repo link - <https://github.com/Kyawkhaing444/nextjs_cicd_workflow>
