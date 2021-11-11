@@ -7,4 +7,4 @@ In this project, I have set up a front-end production-grade workflow for Nextjs 
 - [x] Set up testing environment
 - [x] Set up Circle CI between local and github remote repo
 - [x] Set up Elastic Beanstalk for production server
-- [ ] Set up continuous deployment with circleci between github and production server.
+- [x] Set up continuous deployment with circleci between github and production server.
