@@ -1,9 +1,0 @@
-branch-defaults:
-  master:
-    environment: Dockernextcircleci-env
-global:
-  application_name: docker-next-circle-ci
-  default_ec2_keyname: null
-  default_platform: arn:aws:elasticbeanstalk:ap-southeast-1::platform/Docker running on 64bit Amazon Linux 2/3.4.8
-  default_region: ap-southeast-1
-  sc: git
